@@ -12,7 +12,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/addtodo" element={<AddTodo />} />
-          <Route path="/updatetodo" element={<UpdateTodo />} />
+          <Route path="/updatetodo/:id" element={<UpdateTodo />} />
           <Route path="/showalltodo" element={<ShowAllTodo />} />
         </Routes>
       </BrowserRouter>
